@@ -1,0 +1,50 @@
+{
+  "L.pdf": {
+    "predicted": "Finance",
+    "confirmed": true
+  },
+  "CV Rashidov.pdf": {
+    "predicted": "HR",
+    "confirmed": true
+  },
+  "medical_report_sample.pdf": {
+    "predicted": "Medical",
+    "confirmed": true
+  },
+  "ml_verifone.pdf": {
+    "predicted": "HR",
+    "confirmed": true
+  },
+  "SampleContract-Shuttle.pdf": {
+    "predicted": "Legal",
+    "confirmed": true
+  },
+  "14 Learning Agreement for Traineeship Before the Mobility part 2025 Asadbek Rashidov signed.pdf": {
+    "predicted": "Legal",
+    "confirmed": true
+  },
+  "Coursera QS33ZISHK5AR.pdf": {
+    "predicted": "Education",
+    "confirmed": true
+  },
+  "technology_report.pdf": {
+    "predicted": "Technology",
+    "confirmed": true
+  },
+  "marketing_strategy.pdf": {
+    "predicted": "Marketing",
+    "confirmed": true
+  },
+  "it_support_ticket.pdf": {
+    "predicted": "IT Support",
+    "confirmed": true
+  },
+  "Emloyer_survey_2023.pdf": {
+    "predicted": "HR",
+    "confirmed": true
+  },
+  "Asadbek_Rashidov_Study_Paper_presentation-1.pdf": {
+    "predicted": "Technology",
+    "confirmed": true
+  }
+}

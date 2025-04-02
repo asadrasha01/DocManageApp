@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pkl
+*.log
+*.db
+.env
+venv/
+data/input/
+data/output/
+model/

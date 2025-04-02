@@ -1,0 +1,13 @@
+transformers>=4.35.0
+torch>=2.0.0
+nltk>=3.8.1
+pytesseract
+python-docx
+pillow
+PyMuPDF
+pandas
+openpyxl
+fpdf
+sumy
+# Lock versions for reproducibility
+# pip freeze > requirements.txt

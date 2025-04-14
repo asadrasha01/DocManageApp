@@ -93,7 +93,6 @@ class DocumentApp:
                 cleaned_text = " ".join(tokens)
                 category = categorize_text(cleaned_text)
 
-                # Summarize using the appropriate method
                 summary = summarize_document(cleaned_text, sentence_count=3, 
                              use_advanced=self.summarization_method.get() == "BART",
                              use_openai=self.summarization_method.get() == "OpenAI",

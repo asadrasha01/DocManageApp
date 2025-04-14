@@ -38,22 +38,22 @@ class DocumentApp:
         self.retrain_btn = tk.Button(ctrl_frame, text="Retrain ML Now", command=self.retrain_model)
         self.retrain_btn.grid(row=0, column=3, padx=5)
 
-        # Enhanced ScrolledText for results with modern styling
+
         self.result_text = scrolledtext.ScrolledText(
             root,
             width=90,
             height=26,
-            font=("Helvetica", 12),  # Professional font
+            font=("Helvetica", 12),  
             wrap=tk.WORD,
-            bg="#f5f5f5",  # Subtle light background
-            fg="#333333",  # Dark text for readability
-            bd=1,  # Subtle border
-            relief="solid",  # Clean solid border
-            padx=10,  # Padding for content
-            pady=10,  # Padding for content
+            bg="#f5f5f5",  
+            fg="#333333",  
+            bd=1, 
+            relief="solid",  
+            padx=10,  
+            pady=10,  
         )
         self.result_text.pack(pady=20)
-        self.result_text.config(state=tk.DISABLED)  # Make it non-editable
+        self.result_text.config(state=tk.DISABLED)  
 
         self.confirm_btn = tk.Button(root, text="✔ Confirm Prediction", command=self.confirm_prediction)
         self.confirm_btn.pack(side=tk.LEFT, padx=20, pady=10)

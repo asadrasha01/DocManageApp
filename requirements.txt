@@ -9,5 +9,4 @@ pandas
 openpyxl
 fpdf
 sumy
-# Lock versions for reproducibility
-# pip freeze > requirements.txt
+

@@ -37,7 +37,7 @@ def load_training_data():
 
     return pd.DataFrame(records)
 
-# Train and save the model
+
 def train_model():
     df = load_training_data()
     if df.empty:
@@ -57,7 +57,6 @@ def train_model():
     joblib.dump(vectorizer, VECTORIZER_PATH)
     print("✅ Model trained and saved.")
 
-    # Optional: print classification report (on train set for now)
     y_pred = model.predict(X_vec)
     print("\nTraining report:\n", classification_report(y, y_pred))
 

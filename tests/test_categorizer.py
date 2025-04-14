@@ -19,7 +19,7 @@ class TestCategorizer(unittest.TestCase):
         self.assertEqual(category, "Education")
 
     def test_llm_fallback(self):
-        # This sentence doesn't contain obvious keywords from rules
+        
         text = "I am excited to join your team as a frontend developer."
         category = categorize_text(text)
         self.assertIsInstance(category, str)

@@ -11,7 +11,7 @@ class TestSummarizer(unittest.TestCase):
         )
         summary = summarize_text(text, sentence_count=2)
         self.assertIsInstance(summary, str)
-        self.assertTrue(len(summary.split(".")) <= 3)  # Allow 1 extra split from trailing period
+        self.assertTrue(len(summary.split(".")) <= 3)  
 
     def test_empty_text(self):
         summary = summarize_text("", sentence_count=2)

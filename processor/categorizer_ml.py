@@ -4,7 +4,7 @@ import joblib
 MODEL_PATH = "model/doc_classifier.pkl"
 VECTORIZER_PATH = "model/vectorizer.pkl"
 
-# Try loading the ML model and vectorizer
+
 try:
     model = joblib.load(MODEL_PATH)
     vectorizer = joblib.load(VECTORIZER_PATH)
@@ -15,7 +15,7 @@ except Exception as e:
     vectorizer = None
     MODEL_READY = False
 
-# Predict category using trained ML model
+
 def ml_categorize(text):
     if not MODEL_READY:
         return "Uncategorized"

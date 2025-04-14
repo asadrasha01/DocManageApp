@@ -3,24 +3,24 @@ import pandas as pd
 from fpdf import FPDF
 from config import FONT_PATH
 
-# Function to save data to CSV format
+
 def save_to_csv(data, filename):
     df = pd.DataFrame(data)
     df.to_csv(filename, index=False)
 
-# Function to save data to Excel format
+
 def save_to_excel(data, filename):
     df = pd.DataFrame(data)
     df.to_excel(filename, index=False)
 
-# Function to sanitize text for PDF rendering
+
 def sanitize_text(text):
     if not isinstance(text, str):
         return ""
-    # Remove characters that can't be encoded
+    
     return text.encode("latin1", errors="replace").decode("latin1")
 
-# Function to save data to PDF format
+
 def save_to_pdf(data, filename):
     pdf = FPDF()
     pdf.add_page()
@@ -37,7 +37,7 @@ def save_to_pdf(data, filename):
             category = sanitize_text(item.get("category", "Uncategorized"))
             summary = sanitize_text(item.get("summary", ""))
 
-            # Ensure all fields are printable
+            
             if not fname or not category:
                 continue
 
@@ -52,7 +52,7 @@ def save_to_pdf(data, filename):
     except Exception as e:
         print(f"[ERROR] Failed to write PDF: {e}")
 
-# Example usage
+
 def main():
     sample_data = [
         {"filename": "doc1.pdf", "category": "Finance", "summary": "Bank account and payment details."},

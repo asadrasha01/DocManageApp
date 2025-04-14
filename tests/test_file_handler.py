@@ -8,7 +8,7 @@ class TestFileHandler(unittest.TestCase):
 
     def setUp(self):
         os.makedirs(TEST_DIR, exist_ok=True)
-        # Create a simple .txt file
+        
         with open(os.path.join(TEST_DIR, "sample.txt"), "w", encoding="utf-8") as f:
             f.write("This is a test document for text extraction.")
 

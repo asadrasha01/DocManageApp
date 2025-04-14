@@ -6,7 +6,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report
-
 from processor.file_handler import extract_text
 from processor.text_preprocessor import preprocess_text
 
@@ -18,7 +17,7 @@ INPUT_DIR = "data/input"
 
 os.makedirs(MODEL_DIR, exist_ok=True)
 
-# Load labeled feedback from feedback.json
+
 def load_training_data():
     if not os.path.exists(FEEDBACK_FILE):
         print("No feedback data available.")

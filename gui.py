@@ -5,7 +5,7 @@ import subprocess
 from processor.file_handler import extract_text
 from processor.text_preprocessor import preprocess_text
 from processor.categorizer import categorize_text
-from processor.summarizer import summarize_document  # Updated hybrid summarizer
+from processor.summarizer import summarize_document  
 from processor.reporter import save_to_pdf, save_to_csv, save_to_excel
 from processor.feedback_loop import record_feedback
 from config import OUTPUT_DIR

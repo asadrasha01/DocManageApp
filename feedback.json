@@ -1,82 +1,322 @@
 {
-    "L.pdf": {
-        "predicted": "Finance",
-        "confirmed": true
-    },
-    "CV Rashidov.pdf": {
-        "predicted": "HR",
-        "confirmed": true
-    },
-    "medical_report_sample.pdf": {
-        "predicted": "Medical",
-        "confirmed": true
-    },
-    "ml_verifone.pdf": {
-        "predicted": "HR",
-        "confirmed": true
-    },
-    "SampleContract-Shuttle.pdf": {
-        "predicted": "Legal",
-        "confirmed": true
-    },
-    "14 Learning Agreement for Traineeship Before the Mobility part 2025 Asadbek Rashidov signed.pdf": {
-        "predicted": "Legal",
-        "confirmed": true
-    },
-    "Coursera QS33ZISHK5AR.pdf": {
-        "predicted": "Education",
-        "confirmed": true
-    },
-    "technology_report.pdf": {
-        "predicted": "Technology",
-        "confirmed": true
-    },
-    "marketing_strategy.pdf": {
-        "predicted": "Marketing",
-        "confirmed": true
-    },
-    "it_support_ticket.pdf": {
-        "predicted": "IT Support",
-        "confirmed": true
-    },
-    "Emloyer_survey_2023.pdf": {
-        "predicted": "HR",
-        "confirmed": true
-    },
-    "Asadbek_Rashidov_Study_Paper_presentation-1.pdf": {
-        "predicted": "Technology",
-        "confirmed": true
-    },
-    "Asadbek_Rashidov_cv-1.pdf": {
-        "predicted": "HR",
-        "confirmed": true
-    },
-    "P.pdf": {
-        "predicted": "Finance",
-        "confirmed": true
-    },
-    "IP.docx": {
-        "predicted": "Technology",
-        "confirmed": true
-    },
-    "Technology_Test_Document.pdf": {
-        "predicted": "Technology",
-        "confirmed": true
-    },
-    "free-legal-information-disclaimer.docx": {
-        "predicted": "Legal",
-        "confirmed": true
-    },
-    "free-end-user-licence-agreement.docx": {
-        "predicted": "Legal",
-        "confirmed": true
-    },
-    "free-copyright-notice.docx": {
-        "predicted": "Legal",
-        "confirmed": true
-    },
-    "free-cookies-policy.docx": {
-        "predicted": "Legal",
-        "confirmed": true
-    }
+  "L.pdf": {
+    "predicted": "Finance",
+    "confirmed": true
+  },
+  "CV Rashidov.pdf": {
+    "predicted": "HR",
+    "confirmed": true
+  },
+  "medical_report_sample.pdf": {
+    "predicted": "Medical",
+    "confirmed": true
+  },
+  "ml_verifone.pdf": {
+    "predicted": "HR",
+    "confirmed": true
+  },
+  "SampleContract-Shuttle.pdf": {
+    "predicted": "Legal",
+    "confirmed": true
+  },
+  "14 Learning Agreement for Traineeship Before the Mobility part 2025 Asadbek Rashidov signed.pdf": {
+    "predicted": "Legal",
+    "confirmed": true
+  },
+  "Coursera QS33ZISHK5AR.pdf": {
+    "predicted": "Education",
+    "confirmed": true
+  },
+  "technology_report.pdf": {
+    "predicted": "Technology",
+    "confirmed": true
+  },
+  "marketing_strategy.pdf": {
+    "predicted": "Marketing",
+    "confirmed": true
+  },
+  "it_support_ticket.pdf": {
+    "predicted": "IT Support",
+    "confirmed": true
+  },
+  "Emloyer_survey_2023.pdf": {
+    "predicted": "HR",
+    "confirmed": true
+  },
+  "Asadbek_Rashidov_Study_Paper_presentation-1.pdf": {
+    "predicted": "Technology",
+    "confirmed": true
+  },
+  "Asadbek_Rashidov_cv-1.pdf": {
+    "predicted": "HR",
+    "confirmed": true
+  },
+  "P.pdf": {
+    "predicted": "Finance",
+    "confirmed": true
+  },
+  "IP.docx": {
+    "predicted": "Technology",
+    "confirmed": false
+  },
+  "Technology_Test_Document.pdf": {
+    "predicted": "Technology",
+    "confirmed": true
+  },
+  "free-legal-information-disclaimer.docx": {
+    "predicted": "Legal",
+    "confirmed": true
+  },
+  "free-end-user-licence-agreement.docx": {
+    "predicted": "Legal",
+    "confirmed": true
+  },
+  "free-copyright-notice.docx": {
+    "predicted": "Legal",
+    "confirmed": true
+  },
+  "free-cookies-policy.docx": {
+    "predicted": "Legal",
+    "confirmed": true
+  },
+  "clinical_guidelines_for_hypertension_treatment.pdf": {
+    "predicted": "Medical",
+    "confirmed": true
+  },
+  "covid_19_vaccine_effectiveness_compared.pdf": {
+    "predicted": "Medical",
+    "confirmed": true
+  },
+  "telemedicine_adoption_in_rural_areas.pdf": {
+    "predicted": "Medical",
+    "confirmed": true
+  },
+  "ai_based_diagnostics_in_cardiology.pdf": {
+    "predicted": "Medical",
+    "confirmed": true
+  },
+  "digital_eye_strain_in_children.pdf": {
+    "predicted": "Medical",
+    "confirmed": true
+  },
+  "hospital_it_systems_impact_on_recovery.pdf": {
+    "predicted": "Medical",
+    "confirmed": true
+  },
+  "mental_health_in_pandemic_isolation.pdf": {
+    "predicted": "Medical",
+    "confirmed": true
+  },
+  "dietary_management_for_type_2_diabetes.pdf": {
+    "predicted": "Medical",
+    "confirmed": true
+  },
+  "ehr_systems_benefits_and_challenges.pdf": {
+    "predicted": "Medical",
+    "confirmed": true
+  },
+  "wearables_for_chronic_disease_monitoring.pdf": {
+    "predicted": "Medical",
+    "confirmed": true
+  },
+  "q1_2024_performance_report_of_tesla_inc.pdf": {
+    "predicted": "Finance",
+    "confirmed": true
+  },
+  "risk_management_in_crypto_markets.pdf": {
+    "predicted": "Finance",
+    "confirmed": true
+  },
+  "eu_digital_currency_regulation_overview.pdf": {
+    "predicted": "Finance",
+    "confirmed": true
+  },
+  "portfolio_diversification_using_monte_carlo_simulation.pdf": {
+    "predicted": "Finance",
+    "confirmed": true
+  },
+  "global_inflation_trends_20192024.pdf": {
+    "predicted": "Finance",
+    "confirmed": true
+  },
+  "esg_metrics_and_investor_decision_making.pdf": {
+    "predicted": "Finance",
+    "confirmed": true
+  },
+  "blockchain_use_in_p2p_lending_platforms.pdf": {
+    "predicted": "Finance",
+    "confirmed": true
+  },
+  "mortgage_rates_and_housing_market_impact.pdf": {
+    "predicted": "Finance",
+    "confirmed": true
+  },
+  "camel_rating_for_asian_banks.pdf": {
+    "predicted": "Finance",
+    "confirmed": true
+  },
+  "2008_crisis_vs_2023_market_turbulence.pdf": {
+    "predicted": "Finance",
+    "confirmed": true
+  },
+  "revisions_in_international_maritime_law.pdf": {
+    "predicted": "Legal",
+    "confirmed": true
+  },
+  "eu_ip_law_and_patent_enforcement.pdf": {
+    "predicted": "Legal",
+    "confirmed": true
+  },
+  "data_privacy_and_gdpr_in_education_tech.pdf": {
+    "predicted": "Legal",
+    "confirmed": true
+  },
+  "force_majeure_clauses_in_global_pandemics.pdf": {
+    "predicted": "Legal",
+    "confirmed": true
+  },
+  "legal_review_of_refugee_human_rights.pdf": {
+    "predicted": "Legal",
+    "confirmed": true
+  },
+  "cross_border_jurisdiction_challenges_in_e_commerce.pdf": {
+    "predicted": "Legal",
+    "confirmed": true
+  },
+  "ai_and_legal_automation_ethical_dilemmas.pdf": {
+    "predicted": "Legal",
+    "confirmed": true
+  },
+  "corporate_environmental_liability_cases.pdf": {
+    "predicted": "Legal",
+    "confirmed": true
+  },
+  "common_vs_civil_law_procedural_rules.pdf": {
+    "predicted": "Legal",
+    "confirmed": true
+  },
+  "digital_forensics_in_cybercrime_trials.pdf": {
+    "predicted": "Legal",
+    "confirmed": true
+  },
+  "online_learning_trends_in_higher_education.pdf": {
+    "predicted": "Education",
+    "confirmed": true
+  },
+  "impact_of_gamification_on_student_engagement.pdf": {
+    "predicted": "Education",
+    "confirmed": true
+  },
+  "teacher_burnout_and_support_systems.pdf": {
+    "predicted": "Education",
+    "confirmed": true
+  },
+  "inclusive_education_for_children_with_special_needs.pdf": {
+    "predicted": "Education",
+    "confirmed": true
+  },
+  "edtech_tools_enhancing_classroom_learning.pdf": {
+    "predicted": "Education",
+    "confirmed": true
+  },
+  "comparative_study_of_national_curricula_in_europe.pdf": {
+    "predicted": "Education",
+    "confirmed": true
+  },
+  "parental_involvement_in_academic_performance.pdf": {
+    "predicted": "Education",
+    "confirmed": true
+  },
+  "stem_education_for_girls_in_rural_areas.pdf": {
+    "predicted": "Education",
+    "confirmed": true
+  },
+  "distance_learning_challenges_post_covid.pdf": {
+    "predicted": "Education",
+    "confirmed": true
+  },
+  "improving_literacy_through_mobile_apps.pdf": {
+    "predicted": "Education",
+    "confirmed": true
+  },
+  "quantum_computing_and_its_future_applications.pdf": {
+    "predicted": "Technology",
+    "confirmed": true
+  },
+  "ai_powered_chatbots_in_customer_service.pdf": {
+    "predicted": "Technology",
+    "confirmed": true
+  },
+  "blockchain_for_secure_identity_verification.pdf": {
+    "predicted": "Technology",
+    "confirmed": true
+  },
+  "ethical_concerns_in_facial_recognition_technology.pdf": {
+    "predicted": "Technology",
+    "confirmed": true
+  },
+  "edge_computing_for_iot_devices.pdf": {
+    "predicted": "Technology",
+    "confirmed": true
+  },
+  "cybersecurity_threats_in_smart_homes.pdf": {
+    "predicted": "Technology",
+    "confirmed": true
+  },
+  "augmented_reality_in_retail_industry.pdf": {
+    "predicted": "Technology",
+    "confirmed": true
+  },
+  "natural_language_processing_in_healthcare.pdf": {
+    "predicted": "Technology",
+    "confirmed": true
+  },
+  "5g_rollout_global_readiness_report.pdf": {
+    "predicted": "Technology",
+    "confirmed": true
+  },
+  "digital_twins_in_industrial_manufacturing.pdf": {
+    "predicted": "Technology",
+    "confirmed": true
+  },
+  "deforestation_impact_on_biodiversity.pdf": {
+    "predicted": "Education",
+    "confirmed": true
+  },
+  "climate_change_adaptation_strategies.pdf": {
+    "predicted": "Education",
+    "confirmed": true
+  },
+  "plastic_waste_reduction_policies.pdf": {
+    "predicted": "Education",
+    "confirmed": true
+  },
+  "carbon_emissions_and_urban_planning.pdf": {
+    "predicted": "Education",
+    "confirmed": true
+  },
+  "renewable_energy_adoption_in_asia.pdf": {
+    "predicted": "Education",
+    "confirmed": true
+  },
+  "water_scarcity_in_developing_countries.pdf": {
+    "predicted": "Education",
+    "confirmed": true
+  },
+  "sustainable_agriculture_techniques.pdf": {
+    "predicted": "Education",
+    "confirmed": true
+  },
+  "reforestation_projects_and_their_efficiency.pdf": {
+    "predicted": "Education",
+    "confirmed": true
+  },
+  "ocean_acidification_causes_and_effects.pdf": {
+    "predicted": "Education",
+    "confirmed": true
+  },
+  "air_quality_monitoring_using_satellite_data.pdf": {
+    "predicted": "Education",
+    "confirmed": true
+  }
 }
